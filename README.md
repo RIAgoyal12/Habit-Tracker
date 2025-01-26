@@ -100,7 +100,7 @@ user_params = {
     "notMinor": "yes",
 }
 
-# ## POST: Create User
+#  POST: Create User
 # response = requests.post(url=pixela_endpoint, json=user_params)
 # print(response.text)
 
@@ -118,7 +118,7 @@ headers = {
     "X-USER-TOKEN": TOKEN
 }
 
-# ## POST: Create Graph
+#  POST: Create Graph
 # response = requests.post(url=graph_endpoint, json=graph_config, headers=headers)
 # print(response.text)
 
